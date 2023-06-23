@@ -1,0 +1,25 @@
+.banner {
+    display: grid;
+    align-items: center;
+    background-image: url('./src/assets/images/Imagens_DrPapel/3D/Kombi.jpg');
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position: right;
+
+}
+
+.banner-h1 {
+    display: flex;
+    justify-content: left;
+    padding: 3vw 0 0 5vw !important;
+    size: auto;
+
+}
+
+.banner-h6 {
+    display: flex;
+    justify-content: left;
+    padding: 0 0 2vw 5vw !important;
+    size: auto;
+
+}

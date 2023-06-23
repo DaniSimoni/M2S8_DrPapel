@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline:none !important;
+   
+}
+
+section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline:none !important;
+}
+
+footer.footer-bg.text-center {
+    display: flex;
+    background: linear-gradient(135deg, LavenderBlush 50%, LightCyan);
+    margin: 0 !important;
+    padding: 0  !important;
+    box-sizing: border-box !important;
+    outline:none !important;
+    width: 100% !important;
+}
+
+div.footer.row.align-items-start {
+    margin: 5vw 0 0 0%;
+    width: 98.5vw;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none !important;
+}
+
+ul.font-2-m.cor-5.contatos {
+    display: flexbox !important;            
+    justify-content: flex-column !important;
+    list-style-type: none;  
+    width: 100vw !important;
+    padding: 0 0 1vw 0 !important;
+    margin-top: 0 !important;
+
+}
+
+li {
+    align-items: left;
+    font-size: 1.5vw;
+
+}
+
+.a-footer {
+    text-decoration: none;
+}
+
+img.logo-footer {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 4vw !important;
+    height: 0% !important;
+
+}
+
+.redes {
+    display: flex !important;   
+    justify-content: center;
+    margin-bottom: 2vw !important;
+}
+
+.footer-redes {
+    display: flex;
+    justify-content: space-around !important;
+    width: 20vw !important;
+
+}
+
+
+.footer-titulo {
+    display: flex;
+    margin-bottom: 1.5vh;
+    padding: 0;
+    box-sizing: border-box;
+    outline:none !important;
+    width: 100% !important;
+    justify-content: center;
+}
+
+.contato {
+    margin-top: 1vh;
+    font-size: 1.5vw !important;
+
+}
+
+.footer-contato1 {
+    display: flex !important;
+    justify-content: center;
+}
+
+.footer-contato2 {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.footer-copy {
+    font-size: 0.7vw !important;
+}
+
