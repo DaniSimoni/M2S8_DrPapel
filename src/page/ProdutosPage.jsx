@@ -1,12 +1,16 @@
-/* import Header from '../components/header/header';
+import Header from '../components/header/header';
 import Banner from '../components/banner/banner';
-import Main from '../components/main/main';
-import Footer from '../components/footer/footer'; */
+import Footer from '../components/footer/footer';
 
 export const ProdutosPage = ( ) => {
   return (
     <>
-    <h1>Produtos</h1>
+        <div className='container-fluid '>
+      <Header/>
+      <Banner/>
+     
+      <Footer/>
+    </div>
     
     </>
   )

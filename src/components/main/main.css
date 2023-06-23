@@ -61,7 +61,11 @@ h3 {
     width: 10vw !important;
     border-radius: 0.7vh !important;
     position: relative !important;
-    box-shadow: 0.52vw 0.52vw 1.04vw #000 !important;
+    box-shadow: 0.01vw 0.01vw 0.1vw #000 !important;
+}
+
+.produtos-img:hover {
+    box-shadow: 0.1vw 0.1vw 0.3vw #000 !important;
 }
 
 label.label-produto {
@@ -69,7 +73,7 @@ label.label-produto {
     display: flex !important;
     justify-content: space-around !important;
     width: 10vw !important;
-    font-size: 1.3vw !important;
+    font-size: 1.13vw !important;
     font-weight: bold !important;
     padding-top: 0.65px !important;
 }
@@ -85,8 +89,8 @@ label.label-produto {
     margin: 2vw auto 3vw !important;
     padding: 5vw !important;
     border-radius: 1.955671447196871vh !important;
-    background-image: url('./src/assets/images/background/bg-1.png') !important;
-    box-shadow: 0.52px 0.52px 1.04px #c1c1c1 !important;
+    background-image: url('../../public/images/background/bg-1.png') !important;
+    box-shadow: 4px 4px 8px #000 !important;
 }
 
 .kits {
@@ -121,7 +125,7 @@ button:hover {
         margin: 2vw auto 3vw !important;
         padding: 1vw auto 5vw !important;
         border-radius: 15px !important;
-        background-image: url('./src/assets/images/background/bg-1.png') !important;
+        background-image: url('../../public/images/background/bg-1.png') !important;
         box-shadow: 2px 2px 4px #c1c1c1 !important;
     }
 
@@ -149,7 +153,7 @@ button:hover {
         margin: 1vw auto 1.5vw !important;
         padding: 0vw auto 6vw auto !important;
         border-radius: 1vw !important;
-        background-image: url('./src/assets/images/background/bg-1.png') !important;
+        background-image: url('../../public/images/background/bg-1.png') !important;
         box-shadow: 4px 4px 8px #c1c1c1 !important;
 
     }

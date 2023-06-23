@@ -1,6 +1,5 @@
 import Header from '../components/header/header';
-import Banner from '../components/banner/banner';
-import Main from '../components/main/main';
+import Erro from '../components/erro/erro';
 import Footer from '../components/footer/footer';
 
 export const ErrorPage = ( ) => {
@@ -8,8 +7,7 @@ export const ErrorPage = ( ) => {
     <>
         <div className='container-fluid '>
       <Header/>
-      <Banner/>
-      <Main/>
+      <Erro/>
       <Footer/>
     </div>
     

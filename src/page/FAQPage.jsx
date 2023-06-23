@@ -6,7 +6,12 @@ import Footer from '../components/footer/footer';
 export const FAQPage = ( ) => {
   return (
     <>
-    <h1>FAQ</h1>
+        <div className='container-fluid '>
+      <Header/>
+      <Banner/>
+        <h1>FAQ em desenvolvimento</h1>
+      <Footer/>
+    </div>
     
     </>
   )
