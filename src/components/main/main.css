@@ -89,7 +89,7 @@ label.label-produto {
     margin: 2vw auto 3vw !important;
     padding: 5vw !important;
     border-radius: 1.955671447196871vh !important;
-    background-image: url('../../public/images/background/bg-1.png') !important;
+    background-image: url('/images/background/bg-1.png') !important;
     box-shadow: 4px 4px 8px #000 !important;
 }
 

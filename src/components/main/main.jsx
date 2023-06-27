@@ -1,6 +1,7 @@
 import React from 'react';
-import './main.css'
-import Banner from '../banner/banner.jsx';
+import './main.css';
+import MainBanner from '../banner/mainbanner';
+
 
 const Main = () => {
     return (
@@ -11,27 +12,27 @@ const Main = () => {
         <div className='container-fluid icones-produtos'>
 
             <button className='menu-produto'>
-                <img src="../../public/images/Imagens_DrPapel/Topos/topocapa.jpg" className="img-thumbnail produtos-img" alt="..."/>
+                <img src="/images/Imagens_DrPapel/Topos/topocapa.jpg" className="img-thumbnail produtos-img" alt="..."/>
                 <label htmlFor="" className='label-produto'>Topo de Bolo</label>
             </button>
 
             <button className='menu-produto'>
-                <img src="../../public/images/Imagens_DrPapel/CaixasBrinde/caixas-capa.jpg" className="img-thumbnail produtos-img" alt="..."/>
+                <img src="/images/Imagens_DrPapel/CaixasBrinde/caixas-capa.jpg" className="img-thumbnail produtos-img" alt="..."/>
                 <label htmlFor="" className='label-produto'>Lembrancinhas</label>
             </button>
 
             <button className='menu-produto'>
-                <img src="../../public/images/Imagens_DrPapel/Adesivos_Apliques/adesivos-capa.jpg" className="img-thumbnail produtos-img" alt="..."/>
+                <img src="/images/Imagens_DrPapel/Adesivos_Apliques/adesivos-capa.jpg" className="img-thumbnail produtos-img" alt="..."/>
                 <label htmlFor="" className='label-produto'>Apliques</label>
             </button>
 
             <button className='menu-produto'>
-                <img src="../../public/images/Imagens_DrPapel/3D/capa3D.jpg" className="img-thumbnail produtos-img" alt="..."/>
+                <img src="/images/Imagens_DrPapel/3D/capa3D.jpg" className="img-thumbnail produtos-img" alt="..."/>
                 <label htmlFor="" className='label-produto'>3D</label>
             </button>
 
             <button className='menu-produto'>
-                <img src="../../public/images/Imagens_DrPapel/Mais/mais-capa.jpg" className="img-thumbnail produtos-img" alt="..."/>
+                <img src="/images/Imagens_DrPapel/Mais/mais-capa.jpg" className="img-thumbnail produtos-img" alt="..."/>
                 <label htmlFor="" className='label-produto'>Mais</label>
             </button>
 
@@ -39,7 +40,7 @@ const Main = () => {
 
         </section>
 
-        <Banner/>
+        <MainBanner />
 
         <section className='kits'>
 
@@ -51,11 +52,11 @@ const Main = () => {
             <div className='flip-card d-sm-inline-flex '>
             <div className='flip-card-inner'>
                 <div className='flip-card-front'>
-                <img src="../../public/images/2.jpg" className="img-thumbnail" alt="..."></img>
+                <img src="/images/2.jpg" className="img-thumbnail" alt="..."></img>
                 </div>
 
                 <div className='flip-card-back'>
-                <img src="../../public/images/kit...jpg" className="img-thumbnail" alt="..."></img>
+                <img src="/images/kit...jpg" className="img-thumbnail" alt="..."></img>
                 </div>
             </div>
             </div>
@@ -65,11 +66,11 @@ const Main = () => {
             <div className='flip-card'>
             <div className='flip-card-inner'>
                 <div className='flip-card-front'>
-                <img src="../../public/images/1.jpg" className="img-thumbnail" alt="..."></img>
+                <img src="/images/1.jpg" className="img-thumbnail" alt="..."></img>
                 </div>
 
                 <div className='flip-card-back'>
-                <img src="../../public/images/kit....jpg" className="img-thumbnail" alt="..."></img>
+                <img src="/images/kit....jpg" className="img-thumbnail" alt="..."></img>
                 </div>
             </div>
             </div>
@@ -79,11 +80,11 @@ const Main = () => {
             <div className='flip-card'>
             <div className='flip-card-inner'>
                 <div className='flip-card-front'>
-                <img src="../../public/images/3.jpg" className="img-thumbnail" alt="..."></img>
+                <img src="/images/3.jpg" className="img-thumbnail" alt="..."></img>
                 </div>
 
                 <div className='flip-card-back'>
-                <img src="../../public/images/kit.jpg" className="img-thumbnail" alt="..."></img>
+                <img src="/images/kit.jpg" className="img-thumbnail" alt="..."></img>
                 </div>
             </div>
             </div>

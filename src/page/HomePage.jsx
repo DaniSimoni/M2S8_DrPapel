@@ -3,17 +3,23 @@ import Banner from '../components/banner/banner';
 import Main from '../components/main/main';
 import Footer from '../components/footer/footer';
 
-export const HomePage = ( ) => {
+
+
+
+
+export const HomePage = () => {
   return (
     <>
-        <div className='container-fluid '>
-      <Header/>
-      <Banner/>
-      <Main/>
-      
-      <Footer/>
-    </div>
-    
+      <div className='container-fluid '>
+        <Header />
+
+        <Banner />
+
+        <Main />
+
+        <Footer />
+      </div>
+
     </>
   )
 };
